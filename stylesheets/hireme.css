@@ -132,14 +132,19 @@ aside.video {
 
 .head {
   font-weight: bold;
+  font-family: Bitter;
   font-size: 140%;
-  color: #666;
+  color: #333;
 }
 .intro {
   font-size: 120%;
+  font-family: Hind;
   padding: 10px 0px 20px 0px;
+  background: #CCC;
 }
-
+h2, h3 {
+  font-family: Bitter;
+}
 
 
 
@@ -160,54 +165,10 @@ aside.video {
 
 @media only screen and (min-width: 480px) {
 
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-
-    nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
-    }
-
-    nav li:first-child a {
-        margin-left: 0;
-    }
-
-    nav li:last-child a {
-        margin-right: 0;
-    }
-
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
-
-    nav ul li {
-        display: inline;
-    }
-
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
 }
 
 @media only screen and (min-width: 768px) {
 
-
-/* ============
-    WIDE: Menu
-   ============ */
-
-    .title {
-        float: left;
-    }
-
-    nav {
-        float: right;
-        width: 38%;
-    }
 
 /* ============
     WIDE: Main
@@ -215,14 +176,15 @@ aside.video {
 
     .main article {
         float: left;
-        width: 57%;
+        width: 48%;
     }
 
     .main aside {
         padding-top: 20px;
         float: right;
-        width: 28%;
+        width: 38%;
     }
+
 }
 
 @media only screen and (min-width: 1140px) {
