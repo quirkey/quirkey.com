@@ -125,10 +125,10 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-aside.video {
-  width: 400px;
+body {
+  font-family: Hind;
 }
+
 
 .head {
   font-weight: bold;
@@ -140,14 +140,61 @@ aside.video {
   font-size: 120%;
   font-family: Hind;
   padding: 10px 0px 20px 0px;
-  background: #CCC;
+  background: #EDF7F9;
+}
+h1 {
+  font-size: 140%;
+  rgb(98, 90, 79);
 }
 h2, h3 {
   font-family: Bitter;
 }
+h2 {
+  border-bottom: 1px solid #333;
+}
 
-
-
+.contact {
+  text-align: center;
+  padding: 20px;
+}
+.contact button {
+  background-color: rgb(59,124,18);
+  color: #FFF;
+  font-family: Bitter;
+  border: 0px;
+  font-size: 120%;
+  padding: 5px 30px;
+  box-shadow: 6px 3px 14px 2px rgba(0,0,0,0.29);
+}
+.contact button:hover {
+  color: rgb(59,124,18);
+  background-color: #FFF;
+}
+.skills {
+  background: rgb(33, 37, 58);
+  padding: 10px 0px;
+  color: #fff;
+}
+.work {
+  padding: 10px 0px;
+  background: rgb(231, 231, 231);
+}
+.about{
+  background: rgb(20, 20, 25);
+  padding: 10px 0px 30px;
+  color: #fff;
+}
+.about a {
+  color: #999;
+}
+footer {
+  text-align: center;
+  font-size: 10px;
+  margin: 20px;
+}
+a {
+  color: #333;
+}
 
 
 
@@ -165,6 +212,10 @@ h2, h3 {
 
 @media only screen and (min-width: 480px) {
 
+    aside.video iframe {
+      width: inherit;
+      height: inherit;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -185,6 +236,10 @@ h2, h3 {
         width: 38%;
     }
 
+    aside.video iframe {
+      width: 350px;
+      height: 250px;
+    }
 }
 
 @media only screen and (min-width: 1140px) {
@@ -193,6 +248,10 @@ h2, h3 {
     Maximal Width
    =============== */
 
+  aside.video iframe{
+    width: 450px;
+    height: 275px;
+  }
     .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
