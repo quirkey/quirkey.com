@@ -140,7 +140,11 @@ body {
   font-size: 120%;
   font-family: Hind;
   padding: 10px 0px 20px 0px;
-  background: url(/images/quirkey-logo-bg.png) no-repeat top right #EDF7F9;
+  background: #EDF7F9;
+}
+.intro .wrapper {
+
+  background: url(/images/quirkey-logo-bg.png) no-repeat top right;
 }
 h1 {
   font-size: 140%;
