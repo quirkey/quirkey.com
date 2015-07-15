@@ -142,9 +142,17 @@ body {
   padding: 10px 0px 20px 0px;
   background: #EDF7F9;
 }
+.scaling {
+  font-size: 120%;
+  font-family: Hind;
+  padding: 10px 0px 20px 0px;
+  color: #FFFFFF;
+  background: url(/images/graph-bg.jpg) no-repeat top right #000015;
+}
 .intro .wrapper {
-
   background: url(/images/quirkey-logo-bg.png) no-repeat top right;
+}
+.scaling .wrapper {
 }
 h1 {
   font-size: 140%;
@@ -174,10 +182,24 @@ h2 {
   color: rgb(59,124,18);
   background-color: #FFF;
 }
+.opportunities {
+  padding: 20px 0px;
+  background: #DBE0E6;
+  font-size: 110%;
+}
+.opportunities em {
+  font-weight: bold;
+}
 .skills {
   background: rgb(33, 37, 58);
   padding: 10px 0px;
   color: #fff;
+}
+.skills a {
+  color:#FFF;
+}
+.skills article {
+  font-size: 110%;
 }
 .work {
   padding: 10px 0px;
@@ -235,7 +257,6 @@ a {
     }
 
     .main aside {
-        padding-top: 20px;
         float: right;
         width: 38%;
     }
