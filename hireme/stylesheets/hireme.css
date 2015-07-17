@@ -213,6 +213,9 @@ h2 {
 .about a {
   color: #999;
 }
+.about article {
+    margin: 0 auto;
+}
 footer {
   text-align: center;
   font-size: 10px;
